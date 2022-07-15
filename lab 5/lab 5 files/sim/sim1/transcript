@@ -1,0 +1,44 @@
+# Compile of counter1.v was successful.
+# Compile of tb_counter1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_counter1
+# vsim -gui work.tb_counter1 
+# Start time: 19:38:26 on Feb 21,2022
+# Loading work.tb_counter1
+# Loading work.counter1
+add wave -position insertpoint  \
+sim:/tb_counter1/reset \
+sim:/tb_counter1/enable \
+sim:/tb_counter1/divideby \
+sim:/tb_counter1/go \
+sim:/tb_counter1/clk \
+sim:/tb_counter1/countTB
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rizne  Hostname: DESKTOP-0SRRSVH  ProcessID: 5940
+#           Attempting to use alternate WLF file "./wlftcf9zww".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcf9zww
+run
+# Reset = 0, divideby = 001111, count = 000001. 
+# Reset = 0, divideby = 001111, count = 000011. 
+# Reset = 0, divideby = 001111, count = 000101. 
+# Reset = 0, divideby = 001111, count = 000111. 
+# Reset = 0, divideby = 001111, count = 001001. 
+# Reset = 0, divideby = 001111, count = 001011. 
+# Reset = 0, divideby = 001111, count = 001101. 
+# Reset = 0, divideby = 001111, count = 000000. 
+# Reset = 0, divideby = 001111, count = 000010. 
+# Reset = 0, divideby = 001111, count = 000100. 
+#  
+# Reset = 0, divideby = 001111, count = 000110. 
+# Reset = 0, divideby = 001111, count = 000110. 
+# Reset = 0, divideby = 001111, count = 000110. 
+# Reset = 0, divideby = 001111# End time: 20:09:55 on Feb 21,2022, Elapsed time: 0:37:57
+# Errors: 0, Warnings: 2
+, divideby = 001111, count = 001001. 
+# Reset = 0, divideby = 001111, count = 001011. 
+# Reset = 1, divideby = 001111, count = 000000. 
+# Reset = 1, divideby = 001111, count = 000000. 
+# Reset = 1, divideby = 001111, count = 000000. 
+# End time: 20:10:05 on Feb 21,2022, Elapsed time: 0:31:39
+# Errors: 0, Warnings: 4

@@ -1,0 +1,199 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec180/lab6/Part_2/sim
+vbuffer
+!s110 1646844965
+!i10b 1
+!s100 d?8^b[:?NUzNFzVAd90`f3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA@l8Q[_b^jH8JGoEjc]T42
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/rizne/Desktop/eec180/lab6/Part_3/sim
+w1646621714
+8C:/Users/rizne/Desktop/eec180/lab6/Part_3/buffer.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_3/buffer.v
+!i122 8
+L0 1 22
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1646844965.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_3/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_3/buffer.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vcontrolFSM
+!s110 1646852245
+!i10b 1
+!s100 UPO>Aa5^e^NAGJfL=?R[m0
+R0
+I9QM1jaz@WIJWKaH7KS^Hg2
+R1
+R2
+w1646850179
+8C:/Users/rizne/Desktop/eec180/lab6/Part_2/controlFSM.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_2/controlFSM.v
+!i122 45
+L0 1 79
+R3
+r1
+!s85 0
+31
+Z6 !s108 1646852245.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_2/controlFSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_2/controlFSM.v|
+!i113 1
+R4
+R5
+ncontrol@f@s@m
+vdff
+Z7 !s110 1646844966
+!i10b 1
+!s100 Oj3ji315PgIDKP4PkZo5F1
+R0
+I]T5XAo@8jn;Zmn^lKH<an0
+R1
+R2
+w1646621717
+8C:/Users/rizne/Desktop/eec180/lab6/Part_3/dff.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_3/dff.v
+!i122 10
+L0 1 11
+R3
+r1
+!s85 0
+31
+Z8 !s108 1646844966.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_3/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_3/dff.v|
+!i113 1
+R4
+R5
+vdualPortRam
+R7
+!i10b 1
+!s100 SIMRR0YjbQWHghaQA]O8=3
+R0
+I^D`JRe2EazVDz3WRN[QRg3
+R1
+R2
+w1646621719
+8C:/Users/rizne/Desktop/eec180/lab6/Part_3/dualPortRam.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_3/dualPortRam.v
+!i122 11
+L0 1 38
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_3/dualPortRam.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_3/dualPortRam.v|
+!i113 1
+R4
+R5
+ndual@port@ram
+vMAC
+Z9 !s110 1646852246
+!i10b 1
+!s100 2QlK8k_?R`iWELQe[jkaa2
+R0
+Ifj1B3[:j@>1LU8o611ShD0
+R1
+R2
+w1646238268
+8C:/Users/rizne/Desktop/eec180/lab6/Part_2/MAC.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_2/MAC.v
+!i122 46
+L0 1 17
+R3
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_2/MAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_2/MAC.v|
+!i113 1
+R4
+R5
+n@m@a@c
+vsinglePortRam
+R9
+!i10b 1
+!s100 ?dINW`?[DGL3[f3bR>NLM0
+R0
+I@D8k`abWS^c[KYcKF1RD:3
+R1
+R2
+w1646238270
+8C:/Users/rizne/Desktop/eec180/lab6/Part_2/singlePortRam.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_2/singlePortRam.v
+!i122 47
+L0 1 30
+R3
+r1
+!s85 0
+31
+Z10 !s108 1646852246.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_2/singlePortRam.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_2/singlePortRam.v|
+!i113 1
+R4
+R5
+nsingle@port@ram
+vtb_lab6
+R9
+!i10b 1
+!s100 :5V]M2IZVN>ldLiH0Z2Bi2
+R0
+IFL:c1bOY0WZad]YgNRgV73
+R1
+R2
+w1646622069
+8C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v
+!i122 48
+L0 4 148
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v|
+!i113 1
+R4
+R5
+vtop
+R9
+!i10b 1
+!s100 Whhg[Q313=;A[IdJ7jmiT3
+R0
+IXmRB_dFUT]dLnSX4?[GeK1
+R1
+R2
+w1646850714
+8C:/Users/rizne/Desktop/eec180/lab6/Part_2/top.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_2/top.v
+!i122 49
+L0 1 39
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_2/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_2/top.v|
+!i113 1
+R4
+R5

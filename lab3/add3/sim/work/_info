@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec180/lab1/sheesh
+vadd3
+Z0 !s110 1643673183
+!i10b 1
+!s100 De:`c0jLM@>TfTQa2M16F1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_=:N_M2ZVGzSkGhBHb5Ll2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/rizne/Desktop/eec180/lab3/add3/sim
+Z4 w1643672499
+Z5 8C:/Users/rizne/Desktop/eec180/lab3/add3/add3.v
+Z6 FC:/Users/rizne/Desktop/eec180/lab3/add3/add3.v
+!i122 0
+L0 6 26
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1643673183.000000
+Z9 !s107 C:/Users/rizne/Desktop/eec180/lab3/add3/add3.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab3/add3/add3.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vfull_adder
+R0
+!i10b 1
+!s100 moNf42DCT]Fglez<cKFU<2
+R1
+IAFO6SWS5BJ[LAgc1PLHIA0
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 33 42
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vhalf_adder
+R0
+!i10b 1
+!s100 hTHzXzJ<VVV3`>oDoZ9UW2
+R1
+IN5eQRP<RNnL>f<VmQ>nS10
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 75 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtb_add3
+R0
+!i10b 1
+!s100 ;`FA3?Vggi4c[]XU3Kk@62
+R1
+IGznH0D9X]Q_ND_FJ@@zbf3
+R2
+R3
+w1643672019
+8C:/Users/rizne/Desktop/eec180/lab3/add3/tb_add3.v
+FC:/Users/rizne/Desktop/eec180/lab3/add3/tb_add3.v
+!i122 1
+L0 2 141
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/rizne/Desktop/eec180/lab3/add3/tb_add3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab3/add3/tb_add3.v|
+!i113 1
+R11
+R12

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec180/lab1a/sim1
+vpart2
+Z0 !s110 1642014553
+!i10b 1
+!s100 e^O;S]=VbF@VlMfb[]HHG1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcYXXzL7H;_oTPb[Q[PnGa0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/rizne/Desktop/eec180/lab1b/sim2
+w1642013162
+8C:/Users/rizne/Desktop/eec180/lab1b/part2.v
+FC:/Users/rizne/Desktop/eec180/lab1b/part2.v
+!i122 2
+L0 6 60
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1642014553.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab1b/part2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab1b/part2.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_part2
+R0
+!i10b 1
+!s100 0Q`deNLVzeN2BQX9[`;nk2
+R1
+I4UEQ5RL3X:DOJSTkbiCSA0
+R2
+R3
+w1642013350
+8C:/Users/rizne/Desktop/eec180/lab1b/tb_part2.v
+FC:/Users/rizne/Desktop/eec180/lab1b/tb_part2.v
+!i122 3
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/rizne/Desktop/eec180/lab1b/tb_part2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab1b/tb_part2.v|
+!i113 1
+R6
+R7

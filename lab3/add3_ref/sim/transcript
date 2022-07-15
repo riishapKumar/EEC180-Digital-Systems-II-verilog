@@ -1,0 +1,50 @@
+# Compile of add3_ref.v was successful.
+# Compile of tb_add3_ref.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of add3_ref.v was successful.
+# Compile of tb_add3_ref.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_add3_ref
+# vsim -gui work.tb_add3_ref 
+# Start time: 10:25:30 on Feb 02,2022
+# Loading work.tb_add3_ref
+# Loading work.add3_ref
+add wave -position insertpoint sim:/tb_add3_ref/*
+run
+# t=  0 a=0,b=1,cin=0,sum= 1 
+#  
+# t=40000 a=1,b=1,cin=0,sum= 2 
+#  
+# t=80000 a=0,b=0,cin=0,sum= 0 
+#  
+# t=120000 a=3,b=0,cin=0,sum= 3 
+#  
+run
+# t=160000 a=4,b=5,cin=0,sum= 9 
+#  
+# t=200000 a=5,b=2,cin=0,sum= 7 
+#  
+# t=240000 a=6,b=5,cin=0,sum=11 
+#  
+# t=280000 a=7,b=0,cin=0,sum= 7 
+#  
+run
+# t=320000 a=0,b=7,cin=0,sum= 7 
+#  
+# t=360000 a=1,b=7,cin=0,sum= 8 
+#  
+# t=400000 a=5,b=5,cin=0,sum=10 
+#  
+# t=440000 a=3,b=0,cin=0,sum= 3 
+#  
+run
+# t=480000 a=4,b=2,cin=0,sum= 6 
+#  
+# t=520000 a=5,b=2,cin=0,sum= 7 
+#  
+# t=560000 a=6,b=5,cin=0,sum=11 
+#  
+# t=600000 a=7,b=7,cin=0,sum=14 
+#  
+# End time: 15:58:53 on Feb 02,2022, Elapsed time: 5:33:23
+# Errors: 0, Warnings: 7

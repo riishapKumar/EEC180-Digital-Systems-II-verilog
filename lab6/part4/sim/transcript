@@ -1,0 +1,2160 @@
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.tb_lab6
+# vsim -gui work.tb_lab6 
+# Start time: 18:25:10 on Mar 14,2022
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.dff
+# Loading work.sr_3
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.dff
+# Loading work.sr_3
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 17
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 18
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 19
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 20
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 21
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 22
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 23
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 24
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 25
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 26
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 27
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 28
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 29
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 30
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 31
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 32
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 33
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 34
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 40
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 41
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 42
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 43
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 58
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 59
+# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 60
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+vsim -gui work.tb_lab6
+# vsim -gui work.tb_lab6 
+# Start time: 18:25:10 on Mar 14,2022
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.dff
+# Loading work.sr_3
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_3
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# 11 compiles, 0 failed with no errors.
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_3
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (1) for port 'out_5'. The port definition is at: C:/Users/rizne/Desktop/eec180/lab6/part4/sr_5.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_lab6/DUT/macbuffer/sr_5_dff_1 File: C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v Line: 49
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#       1      1      0      0      0      1      1      0
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# Mismatch at indices [          5,          0]
+# Mismatch at indices [          5,          1]
+# Mismatch at indices [          5,          2]
+# Mismatch at indices [          5,          3]
+# Mismatch at indices [          5,          4]
+# Mismatch at indices [          5,          5]
+# Mismatch at indices [          5,          6]
+# Mismatch at indices [          5,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_3
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   -7469  18329   5737 -25041  20156  -9192   6762   2208
+#    9491    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# Mismatch at indices [          0,          0]
+# Mismatch at indices [          1,          0]
+# Running Time =   76 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1610 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616  13906 -15346  -6263 -12743
+# Mismatch at indices [          7,          4]
+# Mismatch at indices [          7,          5]
+# Mismatch at indices [          7,          6]
+# Mismatch at indices [          7,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098  -6358 -10569   5509 -27078
+#   -7469   2860   8798   9126 -11100  -2360  -6773 -30121
+#    9491  -2959  19512   2414  17218 -22832  41142  11700
+#  -14199  39849 -11824  33005   5602   9879  -6507  19378
+#   -4547    301 -11770 -16788    450  -5320   4351  24399
+#    1183   5673 -36292  19966 -12683   9026 -21875   1947
+#   -2505 -23865  -1915    616  13906 -15346  -6263 -12743
+# Mismatch at indices [          1,          4]
+# Mismatch at indices [          2,          4]
+# Mismatch at indices [          3,          4]
+# Mismatch at indices [          4,          4]
+# Mismatch at indices [          5,          4]
+# Mismatch at indices [          6,          4]
+# Mismatch at indices [          7,          4]
+# Mismatch at indices [          1,          5]
+# Mismatch at indices [          2,          5]
+# Mismatch at indices [          3,          5]
+# Mismatch at indices [          4,          5]
+# Mismatch at indices [          5,          5]
+# Mismatch at indices [          6,          5]
+# Mismatch at indices [          7,          5]
+# Mismatch at indices [          1,          6]
+# Mismatch at indices [          2,          6]
+# Mismatch at indices [          3,          6]
+# Mismatch at indices [          4,          6]
+# Mismatch at indices [          5,          6]
+# Mismatch at indices [          6,          6]
+# Mismatch at indices [          7,          6]
+# Mismatch at indices [          1,          7]
+# Mismatch at indices [          2,          7]
+# Mismatch at indices [          3,          7]
+# Mismatch at indices [          4,          7]
+# Mismatch at indices [          5,          7]
+# Mismatch at indices [          6,          7]
+# Mismatch at indices [          7,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098  -6358 -10569   5509 -27078
+#   -7469   2860   8798   9126 -11100  -2360  -6773 -30121
+#    9491  -2959  19512   2414  17218 -22832  41142  11700
+#  -14199  39849 -11824  33005   5602   9879  -6507  19378
+#   -4547    301 -11770 -16788    450  -5320   4351  24399
+#    1183   5673 -36292  19966 -12683   9026 -21875   1947
+#   -2505 -23865  -1915    616  13906 -15346  -6263 -12743
+# Mismatch at indices [          1,          4]
+# Mismatch at indices [          2,          4]
+# Mismatch at indices [          3,          4]
+# Mismatch at indices [          4,          4]
+# Mismatch at indices [          5,          4]
+# Mismatch at indices [          6,          4]
+# Mismatch at indices [          7,          4]
+# Mismatch at indices [          1,          5]
+# Mismatch at indices [          2,          5]
+# Mismatch at indices [          3,          5]
+# Mismatch at indices [          4,          5]
+# Mismatch at indices [          5,          5]
+# Mismatch at indices [          6,          5]
+# Mismatch at indices [          7,          5]
+# Mismatch at indices [          1,          6]
+# Mismatch at indices [          2,          6]
+# Mismatch at indices [          3,          6]
+# Mismatch at indices [          4,          6]
+# Mismatch at indices [          5,          6]
+# Mismatch at indices [          6,          6]
+# Mismatch at indices [          7,          6]
+# Mismatch at indices [          1,          7]
+# Mismatch at indices [          2,          7]
+# Mismatch at indices [          3,          7]
+# Mismatch at indices [          4,          7]
+# Mismatch at indices [          5,          7]
+# Mismatch at indices [          6,          7]
+# Mismatch at indices [          7,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098  -6358 -10569   5509 -27078
+#   -7469   2860   8798   9126 -11100  -2360  -6773 -30121
+#    9491  -2959  19512   2414  17218 -22832  41142  11700
+#  -14199  39849 -11824  33005   5602   9879  -6507  19378
+#   -4547    301 -11770 -16788    450  -5320   4351  24399
+#    1183   5673 -36292  19966 -12683   9026 -21875   1947
+#   -2505 -23865  -1915    616  13906 -15346  -6263 -12743
+# Mismatch at indices [          1,          4]
+# Mismatch at indices [          2,          4]
+# Mismatch at indices [          3,          4]
+# Mismatch at indices [          4,          4]
+# Mismatch at indices [          5,          4]
+# Mismatch at indices [          6,          4]
+# Mismatch at indices [          7,          4]
+# Mismatch at indices [          1,          5]
+# Mismatch at indices [          2,          5]
+# Mismatch at indices [          3,          5]
+# Mismatch at indices [          4,          5]
+# Mismatch at indices [          5,          5]
+# Mismatch at indices [          6,          5]
+# Mismatch at indices [          7,          5]
+# Mismatch at indices [          1,          6]
+# Mismatch at indices [          2,          6]
+# Mismatch at indices [          3,          6]
+# Mismatch at indices [          4,          6]
+# Mismatch at indices [          5,          6]
+# Mismatch at indices [          6,          6]
+# Mismatch at indices [          7,          6]
+# Mismatch at indices [          1,          7]
+# Mismatch at indices [          2,          7]
+# Mismatch at indices [          3,          7]
+# Mismatch at indices [          4,          7]
+# Mismatch at indices [          5,          7]
+# Mismatch at indices [          6,          7]
+# Mismatch at indices [          7,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098  -6358 -10569   5509 -27078
+#   -7469   2860   8798   9126 -11100  -2360  -6773 -30121
+#    9491  -2959  19512   2414  17218 -22832  41142  11700
+#  -14199  39849 -11824  33005   5602   9879  -6507  19378
+#   -4547    301 -11770 -16788    450  -5320   4351  24399
+#    1183   5673 -36292  19966 -12683   9026 -21875   1947
+#   -2505 -23865  -1915    616  13906 -15346  -6263 -12743
+# Mismatch at indices [          1,          4]
+# Mismatch at indices [          2,          4]
+# Mismatch at indices [          3,          4]
+# Mismatch at indices [          4,          4]
+# Mismatch at indices [          5,          4]
+# Mismatch at indices [          6,          4]
+# Mismatch at indices [          7,          4]
+# Mismatch at indices [          1,          5]
+# Mismatch at indices [          2,          5]
+# Mismatch at indices [          3,          5]
+# Mismatch at indices [          4,          5]
+# Mismatch at indices [          5,          5]
+# Mismatch at indices [          6,          5]
+# Mismatch at indices [          7,          5]
+# Mismatch at indices [          1,          6]
+# Mismatch at indices [          2,          6]
+# Mismatch at indices [          3,          6]
+# Mismatch at indices [          4,          6]
+# Mismatch at indices [          5,          6]
+# Mismatch at indices [          6,          6]
+# Mismatch at indices [          7,          6]
+# Mismatch at indices [          1,          7]
+# Mismatch at indices [          2,          7]
+# Mismatch at indices [          3,          7]
+# Mismatch at indices [          4,          7]
+# Mismatch at indices [          5,          7]
+# Mismatch at indices [          6,          7]
+# Mismatch at indices [          7,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041   7831   -326   8199 -25380
+#   16199    175  49104 -12098  -6358 -10569   5509 -27078
+#   -7469   2860   8798   9126 -11100  -2360  -6773 -30121
+#    9491  -2959  19512   2414  17218 -22832  41142  11700
+#  -14199  39849 -11824  33005   5602   9879  -6507  19378
+#   -4547    301 -11770 -16788    450  -5320   4351  24399
+#    1183   5673 -36292  19966 -12683   9026 -21875   1947
+#   -2505 -23865  -1915    616  13906 -15346  -6263 -12743
+# Mismatch at indices [          0,          4]
+# Mismatch at indices [          1,          4]
+# Mismatch at indices [          2,          4]
+# Mismatch at indices [          3,          4]
+# Mismatch at indices [          4,          4]
+# Mismatch at indices [          5,          4]
+# Mismatch at indices [          6,          4]
+# Mismatch at indices [          7,          4]
+# Mismatch at indices [          0,          5]
+# Mismatch at indices [          1,          5]
+# Mismatch at indices [          2,          5]
+# Mismatch at indices [          3,          5]
+# Mismatch at indices [          4,          5]
+# Mismatch at indices [          5,          5]
+# Mismatch at indices [          6,          5]
+# Mismatch at indices [          7,          5]
+# Mismatch at indices [          0,          6]
+# Mismatch at indices [          1,          6]
+# Mismatch at indices [          2,          6]
+# Mismatch at indices [          3,          6]
+# Mismatch at indices [          4,          6]
+# Mismatch at indices [          5,          6]
+# Mismatch at indices [          6,          6]
+# Mismatch at indices [          7,          6]
+# Mismatch at indices [          0,          7]
+# Mismatch at indices [          1,          7]
+# Mismatch at indices [          2,          7]
+# Mismatch at indices [          3,          7]
+# Mismatch at indices [          4,          7]
+# Mismatch at indices [          5,          7]
+# Mismatch at indices [          6,          7]
+# Mismatch at indices [          7,          7]
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v failed with 3 errors.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 1 failed with 3 errors.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v failed with 1 errors.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 1 failed with 1 error.
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# Compile of controlFSM.v was successful.
+# Compile of dff.v was successful.
+# Compile of dualPortRam.v was successful.
+# Compile of eightBuffer.v was successful.
+# Compile of MAC.v was successful.
+# Compile of singlePortRam.v was successful.
+# Compile of sr_3.v was successful.
+# Compile of top.v was successful.
+# Compile of tb_lab6.v was successful with warnings.
+# Compile of sr_7.v was successful.
+# Compile of sr_6.v was successful.
+# Compile of sr_5.v was successful.
+# Compile of sr_4.v was successful.
+# Compile of sr_2.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_lab6
+# Loading work.top
+# Loading work.controlFSM
+# Loading work.dualPortRam
+# Loading work.singlePortRam
+# Loading work.MAC
+# Loading work.eightBuffer
+# Loading work.sr_7
+# Loading work.dff
+# Loading work.sr_6
+# Loading work.sr_5
+# Loading work.sr_4
+# Loading work.sr_3
+# Loading work.sr_2
+run -all
+# Matrix A
+#  -12 -14 -71  63 122  53  44 -70
+# -103-100 -82  46-116 -33  15-113
+#  124   7  81  62 -20  -1-117 -87
+#   59   8  69 105 -35-126-106-124
+#  124-123 -16-118  96  95 -63 -14
+#  -66  25-107  32  85 127  61 114
+#  111  10  61 -57 107 -98  28  54
+# -106  63  91 -71-123  -9   0  48
+# 
+#  Matrix B
+# -114  19 -62  80 -24 -28 108 -39
+# -100 -35-121-104-118 103-114  13
+#  114 -93 -17   2  65-106 -66  -4
+#   81-110 110-101   8   5 -80-110
+#   84 115-113 -21  75 -45  -3 124
+#  -44  16  30 -64  67 -59  40 -32
+#   91 -76  -3-127 109 -50  18  39
+#  -62 -98-107 107 -69  73 -61  94
+# 
+# Expected Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# Generated Result
+#   16037  18329   5737 -25041  20156  -9192   6762   2208
+#   16199    175  49104 -12098   7831   -326   8199 -25380
+#   -7469   2860   8798   9126  -6358 -10569   5509 -27078
+#    9491  -2959  19512   2414 -11100  -2360  -6773 -30121
+#  -14199  39849 -11824  33005  17218 -22832  41142  11700
+#   -4547    301 -11770 -16788   5602   9879  -6507  19378
+#    1183   5673 -36292  19966    450  -5320   4351  24399
+#   -2505 -23865  -1915    616 -12683   9026 -21875   1947
+# 
+# success :)
+# Running Time =   74 clock cycles
+# ** Note: $stop    : C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(141)
+#    Time: 1570 ns  Iteration: 4  Instance: /tb_lab6
+# Break in Module tb_lab6 at C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v line 141
+# End time: 22:38:17 on Mar 14,2022, Elapsed time: 4:13:07
+# Errors: 0, Warnings: 1

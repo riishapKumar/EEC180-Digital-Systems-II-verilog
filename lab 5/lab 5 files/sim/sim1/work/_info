@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec180/New folder/shift_register/sim
+vcounter1
+Z0 !s110 1645501097
+!i10b 1
+!s100 J^T0=V]0oPS9`FH<P7h:83
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhS6EZR3T6[ezhk>gRoP8X2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/rizne/Desktop/eec180/lab 5/counter1/sim/sim1
+w1645501074
+8C:/Users/rizne/Desktop/eec180/lab 5/counter1/counter1.v
+FC:/Users/rizne/Desktop/eec180/lab 5/counter1/counter1.v
+!i122 36
+L0 1 46
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1645501097.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/counter1/counter1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/counter1/counter1.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_counter1
+R0
+!i10b 1
+!s100 blUk:E>X7QC9?5XDo[bUO2
+R1
+I0GWe38MzS_VH6W>RConl<2
+R2
+R3
+w1645041989
+8C:/Users/rizne/Desktop/eec180/lab 5/counter1/tb_counter1.v
+FC:/Users/rizne/Desktop/eec180/lab 5/counter1/tb_counter1.v
+!i122 37
+L0 1 53
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/counter1/tb_counter1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/counter1/tb_counter1.v|
+!i113 1
+R6
+R7

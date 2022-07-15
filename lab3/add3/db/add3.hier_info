@@ -1,0 +1,92 @@
+|add3
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+cin => cin.IN1
+sum[0] <= full_adder:m1.port3
+sum[1] <= full_adder:m2.port3
+sum[2] <= full_adder:m3.port3
+sum[3] <= full_adder:m3.port4
+
+
+|add3|full_adder:m1
+Data_in_A => Data_in_A.IN1
+Data_in_B => Data_in_B.IN1
+Data_in_C => Data_in_C.IN1
+Data_out_Sum <= half_adder:ha2.Data_out_Sum
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m1|half_adder:ha1
+Data_in_A => Data_out_Sum.IN0
+Data_in_A => Data_out_Carry.IN0
+Data_in_B => Data_out_Sum.IN1
+Data_in_B => Data_out_Carry.IN1
+Data_out_Sum <= Data_out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m1|half_adder:ha2
+Data_in_A => Data_out_Sum.IN0
+Data_in_A => Data_out_Carry.IN0
+Data_in_B => Data_out_Sum.IN1
+Data_in_B => Data_out_Carry.IN1
+Data_out_Sum <= Data_out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m2
+Data_in_A => Data_in_A.IN1
+Data_in_B => Data_in_B.IN1
+Data_in_C => Data_in_C.IN1
+Data_out_Sum <= half_adder:ha2.Data_out_Sum
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m2|half_adder:ha1
+Data_in_A => Data_out_Sum.IN0
+Data_in_A => Data_out_Carry.IN0
+Data_in_B => Data_out_Sum.IN1
+Data_in_B => Data_out_Carry.IN1
+Data_out_Sum <= Data_out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m2|half_adder:ha2
+Data_in_A => Data_out_Sum.IN0
+Data_in_A => Data_out_Carry.IN0
+Data_in_B => Data_out_Sum.IN1
+Data_in_B => Data_out_Carry.IN1
+Data_out_Sum <= Data_out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m3
+Data_in_A => Data_in_A.IN1
+Data_in_B => Data_in_B.IN1
+Data_in_C => Data_in_C.IN1
+Data_out_Sum <= half_adder:ha2.Data_out_Sum
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m3|half_adder:ha1
+Data_in_A => Data_out_Sum.IN0
+Data_in_A => Data_out_Carry.IN0
+Data_in_B => Data_out_Sum.IN1
+Data_in_B => Data_out_Carry.IN1
+Data_out_Sum <= Data_out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|add3|full_adder:m3|half_adder:ha2
+Data_in_A => Data_out_Sum.IN0
+Data_in_A => Data_out_Carry.IN0
+Data_in_B => Data_out_Sum.IN1
+Data_in_B => Data_out_Carry.IN1
+Data_out_Sum <= Data_out_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Data_out_Carry <= Data_out_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+module counter1(
+	input 			reset,
+	input			enable,
+	input 		[5:0] divideby,
+	output reg			go,
+	input					clk,
+   output reg  [5:0] countTB
+);
+	reg					[5:0] count1 = 6'b000000;
+	reg					[5:0] count1_c = 6'b000000;
+
+	
+	
+	
+	
+endmodule

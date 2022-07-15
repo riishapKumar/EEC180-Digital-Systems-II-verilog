@@ -1,0 +1,94 @@
+C:/Users/rizne/Desktop/eec180/lab6/part4/sr_2.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/sr_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_2
+
+Top level modules:
+	sr_2
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/controlFSM.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/controlFSM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controlFSM
+
+Top level modules:
+	controlFSM
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/sr_3.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/sr_3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_3
+
+Top level modules:
+	sr_3
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/sr_4.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/sr_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_4
+
+Top level modules:
+	sr_4
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/MAC.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/MAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/sr_5.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/sr_5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_5
+
+Top level modules:
+	sr_5
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v {2 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_lab6
+** Warning: C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(130): (vlog-10557) Ignoring illegal width specifier '%1.1d' in format
+** Warning: C:/Users/rizne/Desktop/eec180/lab6/part4/tb_lab6.v(130): (vlog-10557) Ignoring illegal width specifier '%1.1d' in format
+
+Top level modules:
+	tb_lab6
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/sr_6.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/sr_6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_6
+
+Top level modules:
+	sr_6
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/eightBuffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eightBuffer
+
+Top level modules:
+	eightBuffer
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/sr_7.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/sr_7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_7
+
+Top level modules:
+	sr_7
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/singlePortRam.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/singlePortRam.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module singlePortRam
+
+Top level modules:
+	singlePortRam
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/dff.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/dff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/part4/dualPortRam.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/part4/dualPortRam.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dualPortRam
+
+Top level modules:
+	dualPortRam
+
+} {} {}}

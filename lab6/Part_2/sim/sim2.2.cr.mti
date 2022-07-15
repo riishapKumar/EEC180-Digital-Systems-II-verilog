@@ -1,0 +1,38 @@
+C:/Users/rizne/Desktop/eec180/lab6/Part_2/controlFSM.v {1 {vlog -work work -stats=none {C:\Users\rizne\Desktop\eec180\lab6\Part_2\controlFSM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controlFSM
+
+Top level modules:
+	controlFSM
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/Part_2/singlePortRam.v {1 {vlog -work work -stats=none {C:\Users\rizne\Desktop\eec180\lab6\Part_2\singlePortRam.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module singlePortRam
+
+Top level modules:
+	singlePortRam
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/Part_2/top.v {1 {vlog -work work -stats=none {C:\Users\rizne\Desktop\eec180\lab6\Part_2\top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/Part_2/MAC.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/Part_2/MAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v {2 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_lab6
+** Warning: C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v(130): (vlog-10557) Ignoring illegal width specifier '%1.1d' in format
+** Warning: C:/Users/rizne/Desktop/eec180/lab6/Part_2/tb_lab6.v(130): (vlog-10557) Ignoring illegal width specifier '%1.1d' in format
+
+Top level modules:
+	tb_lab6
+
+} {} {}}

@@ -1,0 +1,8 @@
+{C:/Users/rizne/Desktop/eec180/lab 5/counter1/tb_counter1.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/counter1/tb_counter1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_counter1
+
+Top level modules:
+	tb_counter1
+
+} {} {}}

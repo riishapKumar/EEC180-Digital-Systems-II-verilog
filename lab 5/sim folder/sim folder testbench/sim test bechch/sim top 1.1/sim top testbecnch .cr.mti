@@ -1,0 +1,36 @@
+{C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/top.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/tb_top.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/tb_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter1.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter1
+
+Top level modules:
+	counter1
+
+} {} {}} {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter2.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter2
+
+Top level modules:
+	counter2
+
+} {} {}} {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/seg7.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/seg7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seg7
+
+Top level modules:
+	seg7
+
+} {} {}}

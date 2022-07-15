@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vmajority
+Z0 !s110 1642007980
+!i10b 1
+!s100 ^TH7lPO=j:@0:Y]joO^Bh1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;UjnU[Lc0lPgWF7Jb7R6J2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/rizne/Desktop/eec180/lab1/sim
+w1641972037
+8C:/Users/rizne/Desktop/eec180/lab1/majority.v
+FC:/Users/rizne/Desktop/eec180/lab1/majority.v
+!i122 1
+L0 6 36
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1642007980.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab1/majority.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab1/majority.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtb_majority
+R0
+!i10b 1
+!s100 ;A3bdHEn[Ig@P_[KVZj4S0
+R1
+Ie_6D3:HTDLJi8Cc4Mn5]n3
+R2
+R3
+w1642007566
+8C:/Users/rizne/Desktop/eec180/lab1/tb_majority.v
+FC:/Users/rizne/Desktop/eec180/lab1/tb_majority.v
+!i122 0
+L0 2 31
+R4
+r1
+!s85 0
+31
+!s108 1642007979.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab1/tb_majority.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab1/tb_majority.v|
+!i113 1
+R5
+R6

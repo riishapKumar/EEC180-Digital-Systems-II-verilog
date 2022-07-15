@@ -1,0 +1,15 @@
+C:/Users/rizne/Desktop/eec180/lab3/add3_ref/add3_ref.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab3/add3_ref/add3_ref.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add3_ref
+
+Top level modules:
+	add3_ref
+
+} {} {}} C:/Users/rizne/Desktop/eec180/lab3/add3_ref/tb_add3_ref.v {1 {vlog -work work -stats=none C:/Users/rizne/Desktop/eec180/lab3/add3_ref/tb_add3_ref.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_add3_ref
+
+Top level modules:
+	tb_add3_ref
+
+} {} {}}

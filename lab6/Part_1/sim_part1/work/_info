@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/sim test bechch/sim top 1.1
+vmac
+!s110 1646242645
+!i10b 1
+!s100 P8iMa19bY9fcK?mkgVPlS1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IFDOkH^5QZ9PPzTeaL6oA50
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/rizne/Desktop/eec180/lab6/Part_1/sim_part1
+w1646238263
+8C:/Users/rizne/Desktop/eec180/lab6/Part_1/mac.v
+FC:/Users/rizne/Desktop/eec180/lab6/Part_1/mac.v
+!i122 6
+L0 1 24
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1646242645.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/Part_1/mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/Part_1/mac.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtb_macc
+!s110 1646242646
+!i10b 1
+!s100 f1]bOUgH9]RK;IUT@;VH@3
+R0
+Ie]P2@H?Z7m6z]0Uj800Rc0
+R1
+R2
+w1646242634
+8C:\Users\rizne\Desktop\eec180\lab6\Part_1\tb_macc.v
+FC:\Users\rizne\Desktop\eec180\lab6\Part_1\tb_macc.v
+!i122 7
+L0 4 102
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\rizne\Desktop\eec180\lab6\Part_1\tb_macc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\rizne\Desktop\eec180\lab6\Part_1\tb_macc.v|
+!i113 1
+R5
+R6

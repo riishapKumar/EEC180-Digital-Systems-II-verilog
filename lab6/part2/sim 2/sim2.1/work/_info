@@ -1,0 +1,128 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec 180 verilog/New folder/Part_3/sim 3.1
+vcontrolFSM
+!s110 1647286150
+!i10b 1
+!s100 oU9Fh28lJdnPfkSmbYNo23
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKBYO:EzVQ5]zRhnPOj8eb0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/rizne/Desktop/eec180/lab6/part2/sim 2/sim2.1
+w1647285269
+8C:/Users/rizne/Desktop/eec180/lab6/part2/controlFSM.v
+FC:/Users/rizne/Desktop/eec180/lab6/part2/controlFSM.v
+!i122 0
+L0 1 84
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1647286150.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/part2/controlFSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/part2/controlFSM.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+ncontrol@f@s@m
+vMAC
+Z7 !s110 1647286151
+!i10b 1
+!s100 2QlK8k_?R`iWELQe[jkaa2
+R0
+IgaUF]>oDI5`PVYG8F9Zkl3
+R1
+R2
+w1646243903
+8C:/Users/rizne/Desktop/eec180/lab6/part2/MAC.v
+FC:/Users/rizne/Desktop/eec180/lab6/part2/MAC.v
+!i122 1
+L0 1 17
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/rizne/Desktop/eec180/lab6/part2/MAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/part2/MAC.v|
+!i113 1
+R5
+R6
+n@m@a@c
+vone_port_ram
+R7
+!i10b 1
+!s100 l4I=STJQgo9jW7XaSKUeg2
+R0
+IgAXTKiJGd>7_Fi<:`ZUNg1
+R1
+R2
+w1647285926
+8C:/Users/rizne/Desktop/eec180/lab6/part2/one_port_ram.v
+FC:/Users/rizne/Desktop/eec180/lab6/part2/one_port_ram.v
+!i122 2
+L0 1 28
+R3
+r1
+!s85 0
+31
+Z8 !s108 1647286151.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab6/part2/one_port_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/part2/one_port_ram.v|
+!i113 1
+R5
+R6
+vtb_lab6
+R7
+!i10b 1
+!s100 :5V]M2IZVN>ldLiH0Z2Bi2
+R0
+I6WCWPBW<acCDj>jNkZ2<X1
+R1
+R2
+w1646622069
+8C:/Users/rizne/Desktop/eec180/lab6/part2/tb_lab6.v
+FC:/Users/rizne/Desktop/eec180/lab6/part2/tb_lab6.v
+!i122 3
+L0 4 148
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/rizne/Desktop/eec180/lab6/part2/tb_lab6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/part2/tb_lab6.v|
+!i113 1
+R5
+R6
+vtop
+R7
+!i10b 1
+!s100 2W4;@_LBZG0SJV1[U5MWl3
+R0
+I8R6GgaN`><AaEYh=FROOP3
+R1
+R2
+w1647285855
+8C:/Users/rizne/Desktop/eec180/lab6/part2/top.v
+FC:/Users/rizne/Desktop/eec180/lab6/part2/top.v
+!i122 4
+L0 6 109
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/rizne/Desktop/eec180/lab6/part2/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab6/part2/top.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/sim test bechch/sin c1 1.1
+vcounter1
+Z0 !s110 1645733838
+!i10b 1
+!s100 5FjF>]?>NDJ5PE^KWPNWB3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5BTo>oo0m<[GY?MEF9j9N2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/sim test bechch/sim top 1.1
+w1645659458
+8C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter1.v
+FC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter1.v
+!i122 0
+L0 1 43
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1645733837.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter1.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcounter2
+R0
+!i10b 1
+!s100 50>0^08bV_Z@HNKMjn?QX2
+R1
+IUcBXTMQiPG35X[hF1@WRz3
+R2
+R3
+w1645729831
+8C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter2.v
+FC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter2.v
+!i122 1
+L0 1 63
+R4
+r1
+!s85 0
+31
+Z7 !s108 1645733838.000000
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/counter2.v|
+!i113 1
+R5
+R6
+vseg7
+R0
+!i10b 1
+!s100 UEMd]_WUOS1iBHZblVdXF0
+R1
+IESb6WN0LRIjI?k4LfLnb`3
+R2
+R3
+w1645034562
+8C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/seg7.v
+FC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/seg7.v
+!i122 2
+L0 5 46
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/seg7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/seg7.v|
+!i113 1
+R5
+R6
+vtb_top
+R0
+!i10b 1
+!s100 gOn7gZjKmn8=cOXHYcj<d0
+R1
+I3=8h7TEKmeefK3^BKWhzV1
+R2
+R3
+w1641972452
+8C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/tb_top.v
+FC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/tb_top.v
+!i122 3
+L0 1 76
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/tb_top.v|
+!i113 1
+R5
+R6
+vtop
+R0
+!i10b 1
+!s100 ]9c?1m]8a[FCXaQXR?`kz0
+R1
+IkQ:X<oo13F8]d1H0h>n[[2
+R2
+R3
+w1641972453
+8C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/top.v
+FC:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/top.v
+!i122 4
+L0 6 91
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/rizne/Desktop/eec180/lab 5/sim folder/sim folder testbench/top.v|
+!i113 1
+R5
+R6

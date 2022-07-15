@@ -1,0 +1,35 @@
+C:/Users/rizne/Downloads/counter2.v {1 {vlog -work work -stats=none C:/Users/rizne/Downloads/counter2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter2
+
+Top level modules:
+	counter2
+
+} {} {}} {C:/Users/rizne/Desktop/eec180/lab 5/lab 5 files/seg7.v} {1 {vlog -work work -stats=none {C:/Users/rizne/Desktop/eec180/lab 5/lab 5 files/seg7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seg7
+
+Top level modules:
+	seg7
+
+} {} {}} {C:/Users/rizne/Desktop/eec180/lab 5/lab 5 files/top.v} {1 {vlog -work work -stats=none {C:\Users\rizne\Desktop\eec180\lab 5\lab 5 files\top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/rizne/Downloads/tb_top.v {0 {vlog -work work -stats=none {C:\Users\rizne\Downloads\tb_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+** Error: C:\Users\rizne\Downloads\tb_top.v(3): Single value range allowed only in SystemVerilog.
+** Error: (vlog-13069) C:\Users\rizne\Downloads\tb_top.v(17): near "[": syntax error, unexpected '[', expecting ')'.
+
+} {4.0 6.0} {}} C:/Users/rizne/Downloads/counter1.v {1 {vlog -work work -stats=none C:/Users/rizne/Downloads/counter1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter1
+
+Top level modules:
+	counter1
+
+} {} {}}
